@@ -21,6 +21,12 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.refillCoins("1d", 10)).toBeDefined();
       });
     });
+
+    describe("When dispening change for 1 item A2", () => {
+      it("Should return amount given - item price", () => {
+        expect(vendingMachine.dispenseSum("A2", 9)).toEqual(1.75);
+      });
+    });
   });
 
   describe("Products Inventory", () => {
