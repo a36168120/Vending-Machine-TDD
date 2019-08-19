@@ -15,6 +15,12 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.checkCoinStock("25c")).toEqual(20);
       });
     });
+
+    describe("When refilling coins for loonie", () => {
+      it("Should return new current quantity for loonie", () => {
+        expect(vendingMachine.refillCoins("1d", 10)).toBeDefined();
+      });
+    });
   });
 
   describe("Products Inventory", () => {
