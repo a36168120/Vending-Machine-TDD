@@ -35,5 +35,11 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.checkProductStock("A5")).toEqual(10);
       });
     });
+
+    describe("When stocking for item Canadian-Citizenship", () => {
+      it("Should return quantity needed for stock", () => {
+        expect(vendingMachine.restockProducts("A2")).toEqual(6);
+      });
+    });
   });
 });
