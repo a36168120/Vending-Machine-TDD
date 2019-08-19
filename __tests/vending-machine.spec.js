@@ -41,5 +41,19 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.restockProducts("A2")).toEqual(6);
       });
     });
+
+    describe("When dispensing item B1 for Indian-Citizenship", () => {
+      it("Should update B1's currentQuantity - 4", () => {
+        expect(vendingMachine.dispenseProducts("B1", 4)).toEqual(6);
+      });
+    });
+
+    describe("When dispensing item B1 for Indian-Citizenship, while money is not enough", () => {
+      it("Should throw error (Sorry insufficient money)", () => {
+        expect(() => vendingMachine.dispenseProducts("B1", 4, 3)).toThrowError(
+          "Sorry insufficient money"
+        );
+      });
+    });
   });
 });
