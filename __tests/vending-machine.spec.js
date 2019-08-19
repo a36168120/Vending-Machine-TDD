@@ -9,6 +9,12 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.checkCoins()).toEqual(data.coin);
       });
     });
+
+    describe("When checking how many quarter is in stock", () => {
+      it("Should return current stock of quarters", () => {
+        expect(vendingMachine.checkCoinStock("25c")).toEqual(20);
+      });
+    });
   });
 
   describe("Products Inventory", () => {
@@ -18,9 +24,9 @@ describe("Vending Machine:", () => {
       });
     });
 
-    describe("When checking how many quarter is in stock", () => {
-      it("Should return current stock of quarters", () => {
-        expect(vendingMachine.checkCoinStock("25c")).toEqual(20);
+    describe("When checking for product position A5", () => {
+      it("Should return A5's current stock", () => {
+        expect(vendingMachine.checkProductStock("A5")).toEqual(10);
       });
     });
   });
