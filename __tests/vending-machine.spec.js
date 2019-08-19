@@ -27,6 +27,12 @@ describe("Vending Machine:", () => {
         expect(vendingMachine.dispenseSum("A2", 9)).toEqual(1.75);
       });
     });
+
+    describe("When dispening change for $1.9 in lowest amount of coins", () => {
+      it("Should return 1 loonie, 3 quarters, 1 dime and 1 nickel", () => {
+        expect(vendingMachine.dispenseChange(1.9)).toBeDefined();
+      });
+    });
   });
 
   describe("Products Inventory", () => {
