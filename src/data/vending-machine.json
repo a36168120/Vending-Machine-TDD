@@ -1,0 +1,115 @@
+{
+  "coin": {
+    "5c": {
+      "title": "nickel",
+      "value": 0.05,
+      "stockQuantity": 20
+    },
+
+    "10c": {
+      "title": "dime",
+      "value": 0.1,
+      "stockQuantity": 20
+    },
+
+    "25c": {
+      "title": "quarter",
+      "value": 0.25,
+      "stockQuantity": 20
+    },
+
+    "1d": {
+      "title": "loonie",
+      "value": 1,
+      "stockQuantity": 20
+    },
+
+    "2d": {
+      "title": "toonie",
+      "value": 2,
+      "stockQuantity": 20
+    }
+  },
+
+  "inventory": {
+    "A1": {
+      "title": "American-Citizenship",
+      "price": 9.9,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "A2": {
+      "title": "Canadian-Citizenship",
+      "price": 7.25,
+      "currentQuantity": 4,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "A3": {
+      "title": "Taiwanese-Citizenship",
+      "price": 5.0,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "A4": {
+      "title": "Russian-Citizenship",
+      "price": 6.15,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "A5": {
+      "title": "German-Citizenship",
+      "price": 7.6,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "B1": {
+      "title": "Indian-Citizenship",
+      "price": 1.0,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "B2": {
+      "title": "French-Citizenship",
+      "price": 6.9,
+      "currentQuantity": 4,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "B3": {
+      "title": "China-Citizenship",
+      "price": 8.45,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "B4": {
+      "title": "British-Citizenship",
+      "price": 4.45,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    },
+
+    "B5": {
+      "title": "NorthKorean-Citizenship",
+      "price": 0,
+      "currentQuantity": 10,
+      "maxQuantity": 10,
+      "minQuantity": 5
+    }
+  }
+}
