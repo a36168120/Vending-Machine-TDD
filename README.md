@@ -10,22 +10,6 @@ In my case, I created a vending machine along with 10 functions to test out that
 
 ## Functions
 
-For Coins
-
-- checkCoins()
-- checkCoinStock()
-- refillCoins()
-- dispenseSum()
-- dispenseChange()
-
-For Products
-
-- checkProducts()
-- checkProductStock()
-- restockProducts()
-- setProductQuantity()
-- dispenseProducts()
-
 | For Coins:         | For Products:          |
 | ------------------ | ---------------------- |
 | - checkCoins()     | - checkProducts()      |
@@ -33,4 +17,3 @@ For Products
 | - refillCoins()    | - restockProducts()    |
 | - dispenseSum()    | - setProductQuantity() |
 | - dispenseChange() | - dispenseProducts()   |
-| ------------------ | ---------------------- |
