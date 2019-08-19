@@ -11,5 +11,11 @@ describe("Vending Machine:", () => {
     });
   });
 
-  describe("Products Inventory", () => {});
+  describe("Products Inventory", () => {
+    describe("When checking for all products in inventory", () => {
+      it("Should return all information of products ", () => {
+        expect(vendingMachine.checkProducts()).toEqual(data.inventory);
+      });
+    });
+  });
 });
